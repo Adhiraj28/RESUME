@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adhiraj's Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="assets\images\fd0226f5-bbcf-4a2d-a245-b01ecd3ffa38.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="assets\images\WhatsApp Image 2025-05-27 at 23.46.28_6777ffaf.jpg" alt="Pratham Sharma" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Pratham Sharma">Adhiraj Singh Bains</h1>
+
+          <p class="title">Software Engineer | AI Enthusiast</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:prathamsharma@live.com" class="contact-link">bains12@uwindsor.ca</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">(226) 600-1857</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="January 15th,2003">January 26th,2004</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Windsor, Canada</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/adhiraj-singh-bains-316336229/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/Adhiraj28" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Certifications</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I’m a Computer Science Honours Co-op student at the University of Windsor with a strong foundation in data structures, algorithms, and software systems. My passion lies at the intersection of full-stack development and AI-driven automation, where I use my technical knowledge to solve real-world problems with impactful, efficient, and scalable solutions.<br>
+
+Whether it’s automating document processing using computer vision models or building responsive web apps with modern stacks, I thrive in transforming complex problems into intuitive digital tools. I bring a hands-on, solution-driven approach to everything I do—backed by strong academic performance and a growing portfolio of impactful work.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AI Engineering & Workflow Automation</h4>
+
+                <p class="service-item-text">
+                  At Corvista, I engineered end-to-end AI solutions leveraging YOLOv8 and Tesseract OCR to automate data extraction from prescription images and scanned checks. These tools achieved 99.2% accuracy and processed over 200 files daily, saving over 35 hours of manual effort per week. <br><br>I also trained these models on a custom dataset of 15,000+ annotated images to enhance reliability and precision.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Full-Stack Web Development</h4>
+
+                <p class="service-item-text">
+                  I’ve developed scalable web applications using React, Node.js, Express, and MongoDB, incorporating everything from responsive front-end interfaces to secure backend endpoints. My Personal Finance Tracker features a dynamic dashboard that allows users to visualize expenses and income in real-time, manage transactions, and access a seamless user experience.<br><br> I employ RESTful architecture, custom React hooks, and comprehensive error handling to ensure app reliability.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title"> Process Optimization with Python & APIs</h4>
+
+                <p class="service-item-text">
+                  I love building lightweight yet powerful automation tools. My Spotify Downloader project integrates multiple APIs (Spotify Web API, YouTube Data API) and Python libraries (PyTube, MoviePy) to search, fetch, convert, and organize songs into a personal music library—all with minimal user interaction.<br><br>
+
+Beyond this, I actively work on modular scripts for repetitive digital tasks such as file renaming, batch conversions, web scraping, and PDF manipulation. These tools are built with reusability and customization in mind.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title"> Infrastructure & Data-Driven Solutions</h4>
+
+                <p class="service-item-text">
+                  While working at CRPF, I developed a Building Branch Management System tailored to public housing logistics. The software automated utility billing, digitized family housing records, and introduced online payments—reducing manual tracking time by over 60%. This role taught me how to build software that balances usability, government compliance, and performance.<br><br>
+
+I also gained hands-on experience collaborating across non-technical teams, converting policy requirements into working software, and receiving direct commendation from leadership for initiative and execution.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              
+            <div class="modal-content">
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">My Professional Network</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              
+                <img src="assets\images\clearspider (2).png" alt="client logo">
+              </a>
+            </li>
+            <li class="clients-item">
+              
+                <img src="assets\images\images-removebg-preview.png" alt="client logo">
+              </a>
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+        
+
+      <article class="resume" data-page="resume">
+      </section>
+
+      <section class="timeline">
+
+        <div class="title-wrapper">
+          <div class="icon-box">
+            <ion-icon name="book-outline"></ion-icon>
+          </div>
+
+          <h3 class="h3">Experience</h3>
+        </div>
+
+        <ol class="timeline-list">
+        </li>
+        <li class="timeline-item">
+
+          <h4 class="h4 timeline-item-title">Software Developer Intern</h4><br>
+          <h3 class="testimonials-text">Central Training College (Telecom & IT), CRPF</h3>
+
+          <span>January 2025 – April 2025</span>
+
+          <p class="timeline-text">
+            I developed a Building Branch Management System that streamlined housing operations across 500+ government quarters, enabling utility billing automation and digital recordkeeping. This solution eliminated paper-based processes, reduced tracking time by over 60%, and supported secure online payments.<br>
+
+My work was recognized formally for going beyond expectations, highlighting my ability to independently scope, develop, and deploy full-stack systems with tangible impact.
+          </p>
+
+        </li>
+        
+        <li class="timeline-item">
+
+          <h4 class="h4 timeline-item-title">Software Engineer Intern</h4><br>
+          <h3 class="testimonials-text">Corvista Enterprises</h3>
+
+          <span>May 2024 – August 2024</span>
+
+          <p class="timeline-text">
+           I led the development of multiple automation pipelines and AI-based tools. Using YOLOv8 and Tesseract OCR, I built an automated system that processed checks and prescriptions with 99.2% accuracy, reducing manual workload by 35+ hours per week.<br>
+
+I also wrote Python scripts to automate email attachment workflows, enabling PDF conversion, page separation, and backend uploads—saving over $5,000 monthly. My contributions to the backend system with Blazor and C# improved load times and usability, and I played a key role in retraining AI models on over 15,000 annotated images for production-grade accuracy.
+
+          </p>
+
+        
+        </ol>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+          
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">University of Windsor, Ontario, Canada
+                </h4>
+                <h3 class="testimonials-text">Bachelor of Computer Science (Honours Co-op)</h3>
+  
+                <span>2022 – 2026</span>
+  
+                <p class="timeline-text">
+                  My academic path emphasizes core computer science principles including algorithms, data structures, object-oriented programming, web development, and database design. I’ve completed hands-on courses in Java OOP, DSA, Web Programming, Discrete Math, MySQL, and Computer Architecture, complemented by practical co-op experience.
+                </p>
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="85">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">JavaScript / React</h5>
+                <data value="85 ">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">C/C++</h5>
+                <data value="80">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Node.js / Express</h5>
+                <data value="80">80%</data>
+              </div>
+             
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+        </li>
+            
+        <li class="skills-item">
+
+          <div class="title-wrapper">
+            <h5 class="h5">MongoDB / MySQL</h5>
+            <data value="70">95%</data>
+          </div>
+         
+          <div class="skill-progress-bg">
+            <div class="skill-progress-fill" style="width: 95%;"></div>
+          </div>
+
+        </li>
+            
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">Automation / Scripting</h5>
+              <data value="90">90%</data>
+            </div>
+           
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 90%;"></div>
+            </div>  
+        </li>
+            
+        <li class="skills-item">
+
+          <div class="title-wrapper">
+            <h5 class="h5">Computer Vision / OCR / YOLOv8</h5>
+            <data value="90">90%</data>
+          </div>
+         
+          <div class="skill-progress-bg">
+            <div class="skill-progress-fill" style="width: 90%;"></div>
+          </div>
+
+        </li>
+            
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Full-Stack Web Development</h5>
+                <data value="90">90%</data>
+              </div>
+             
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Research</button>
+            </li>
+          </ul>
+
+          
+          
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Research</button>
+              </li>
+
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets\images\ChatGPT Image May 27, 2025, 11_41_44 PM.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Personal Finance Tracker</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            
+            <li class="project-item  active" data-filter-item data-category="research">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets\images\ChatGPT Image May 27, 2025, 11_49_57 PM.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">YOLOv8 + Tesseract OCR Integration</h3>
+
+                <p class="project-category">Research</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="research">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets\images\ChatGPT Image May 27, 2025, 11_49_22 PM.png" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Check & Document Processor Automation</h3>
+
+                <p class="project-category">Research</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="web development">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets\images\download.jpg" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Spotify Downloader</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #Certifications
+      -->
+
+      <article class="Certifications" data-page="Certifications">
+
+        <header>
+          <h2 class="h2 article-title">Certifications</h2>
+        </header>
+
+        <section class="Certifications-posts">
+
+          <ul class="Certifications-posts-list">
+            <li class="Certifications-post-item">
+                <figure class="Certifications-banner-box">
+                  <img src="assets\images\Internship conv 1.png" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="Certifications-content">
+
+                  <div class="Certifications-meta">
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">April, 2025</time>
+                  </div>
+
+                  <h3 class="h3 Certifications-item-title">Software Developer Intern</h3>
+
+                  
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe src="//www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d94439.29480461012!2d-83.002882!3d42.29500099999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883b2ac1b54f886b%3A0xb66cd49527fcdc51!2sWindsor%2C%20ON%2C%20Canada!5e0!3m2!1sen!2sin!4v1748368591905!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+          <h3 class="h3 form-title">Contact Form</h3>
+          <form action="https://formspree.io/f/mvgaezrk" method="POST">
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            <button class="form-btn" type="submit" data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          
+          </form>          
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
